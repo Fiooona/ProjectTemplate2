@@ -11,6 +11,7 @@ header[role="banner"]{
     position: absolute;
     top:0;
     right: 0;
+    z-index: 1999;
     > ul{
       list-style: none;
       >li{
@@ -18,6 +19,15 @@ header[role="banner"]{
         > a{
           display: inline-block;
           padding: 8px 12px;
+          @media (max-width: (@grid-float-breakpoint - 1)) {
+            span{
+              .sr-only();
+            }
+            .icon{
+              font-size: 2em;
+              line-height:1.2;
+            }
+          }
           &:hover{
             text-deciration:none;
           }
