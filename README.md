@@ -4,7 +4,8 @@
 * [Bootstrap](http://getbootstrap.com/)
 
 # 项目预览
-*(https://fiooona.github.io/ProjectTemplete2/index.html)
+*[项目预览](https://fiooona.github.io/ProjectTemplate2/index.html)
+
 
 
 visible-sm类控制div仅在小屏幕范围可见
